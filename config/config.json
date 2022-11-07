@@ -20,7 +20,6 @@
     "database": "railway",
     "host": "containers-us-west-18.railway.app",
     "port": "6733",
-    "url":"postgresql://postgres:$9sJAwnjPdbzBegAt71qI@containers-us-west-18.railway.app:6733/railway",
     "dialect": "postgres",
 
   }
