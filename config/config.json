@@ -16,9 +16,10 @@
   },
   "production": {
     "username": "postgres",
-    "password": "password",
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "password": "P1hb7wYcqJWt7lPWY380",
+    "database": "railway",
+    "host": "containers-us-west-113.railway.app",
+    "dialect": "postgres",
+    "port": "5665"
   }
 } 
