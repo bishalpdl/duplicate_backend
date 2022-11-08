@@ -6,7 +6,7 @@ const cloudinary = require('./utils/cloudinary.js');
 
 
 require('dotenv').config({ multiline: true, debug: true })
-const { sequelize, QueryTypes, Users, Tickets, Bookings } = require('./database/models')
+const { sequelize, QueryTypes, Users, Tickets, Bookings } = require('./models')
 
 const adminRouter = require('./routes/admin.js');
 const userRouter = require('./routes/users.js');

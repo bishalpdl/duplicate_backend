@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-const { Admin } = require('./../database/models');
+const { Admin } = require('./../models');
 
 const isAdmin = async(req, res, next) => {
     try{
