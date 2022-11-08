@@ -1,4 +1,3 @@
-
 {
   "development": {
     "username": "postgres",
@@ -20,6 +19,7 @@
     "database": "railway",
     "host": "containers-us-west-18.railway.app",
     "dialect": "postgres",
+    "url": "postgres://user_23as_user:pmEJVfyWy1Ymn2fGtrxbe4UW2dmSxHxW@dpg-cdkkm1mn6mpngrvs7fdg-a/user_23as"
 
   }
 } 

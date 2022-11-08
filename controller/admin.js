@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 
 const isAdmin = require('./../middleware/isAdmin.js');
 
-const { sequelize, Users, Tickets, Bookings, Admin } = require('./../database/models');
+const { sequelize, Users, Tickets, Bookings, Admin } = require('./../models');
 
 
 

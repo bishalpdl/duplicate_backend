@@ -1,5 +1,5 @@
 const isAdmin = require('./../middleware/isAdmin');
-const { sequelize,  Tickets, Sequelize } = require('./../database/models')
+const { sequelize,  Tickets, Sequelize } = require('./../models')
 const cloudinary = require('./../utils/cloudinary.js')
 const moment = require('moment');
 const { Op } = require('sequelize');

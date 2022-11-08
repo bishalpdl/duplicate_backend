@@ -4,7 +4,7 @@ const moment = require('moment');
 
 const userAuth = require('./../middleware/userAuth');
 const isAdmin = require('./../middleware/isAdmin')
-const { sequelize, Users, Tickets, Bookings } = require('./../database/models');
+const { sequelize, Users, Tickets, Bookings } = require('./../models');
 const emailer = require('../utils/emailer');
 
 const bookingController = require('../controller/booking.js')
